@@ -1,7 +1,7 @@
 import time
 from threading import Thread
 from tkinter import END
-import requests
+
 
 class ThreadedTask(Thread):
     def __init__(self, text_board, start, step, prompt):
